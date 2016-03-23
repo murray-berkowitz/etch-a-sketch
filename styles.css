@@ -1,0 +1,47 @@
+#container {
+		width:1400px;
+		margin:0 auto;
+
+	}
+
+	.table {
+		display:table;
+		empty-cells: show;
+		margin:0 auto;
+	}
+
+	#table_title{
+		display: table-caption;
+		font-weight: bold;
+		font-size: 16px;
+		margin:0;
+		padding-bottom:0;
+		padding-left: 600px;
+		width: 100%;
+	}
+
+	#psize{
+		margin:0; 
+		padding:0;
+	}
+
+	#psize1{
+		margin:0; 
+		padding:0;
+	}
+
+	.row {
+		display: table-row;
+	}
+
+	.cell {
+		display:table-cell;
+		border: solid 1px;
+		border-width: thin;
+		background-color: grey;
+	}
+
+	#input {
+		margin:0 auto;
+		padding-left: 550px;
+	}
