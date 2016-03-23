@@ -46,6 +46,6 @@
 		$(".cell").css("width", ((765-(board_size*2))/board_size));
 		$(".cell").css("height", ((765-(board_size*2))/board_size));
 		$("#table_title").append("<p id='psize'>Your " + board_size + "x" + board_size + " sketchpad:</p>");
-		$("#table_title").append("<p id='psize1'>Click to square to draw!</p>")
+		$("#table_title").append("<p id='psize1'>Click and hold square to draw!</p>")
 		draw();
 	})
