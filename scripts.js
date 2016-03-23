@@ -10,11 +10,18 @@
 	}
 	
 	function draw(){
-		$(document).on("click", ".cell", function(){
+		var isDown = false;
+		$(".cell").mousedown(function(){
+			isDown = true;
 			$(this).css("background-color", randomColor());
-			$(document).on("mouseover", ".cell", function(){
-				$(this).css("background-color", randomColor);
-			})
+		});
+		$(".cell").mouseup(function(){
+			isDown = false;
+		});
+		$(".cell").mouseover(function(){
+			if(isDown){
+				$(this).css("background-color", randomColor());
+			}
 		})
 	}
 
